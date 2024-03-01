@@ -1,0 +1,106 @@
+/* Restablecimiento de estilos */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Tipografía */
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+/* Contenedor principal */
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para los componentes */
+
+.header {
+  text-align: center;
+}
+
+.lista-proyectos {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-proyectos li {
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.formulario-proyecto {
+  margin-top: 2em;
+}
+
+.formulario-proyecto label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.formulario-proyecto input,
+.formulario-proyecto select {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.formulario-proyecto button {
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Colores */
+
+.primary-color {
+  color: #007bff;
+}
+
+.bg-primary {
+  background-color: #007bff;
+}
+
+.border-primary {
+  border-color: #007bff;
+}
+
+/* Media queries */
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}
